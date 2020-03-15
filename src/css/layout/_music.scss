@@ -1,0 +1,30 @@
+/*------------------------------MUSIC*/
+.music
+{
+    background: $blue;
+    &_list
+    {
+        height: 500px;
+        overflow: auto;
+        &_item
+        {
+            display: block;
+            background: $blue_secundary;
+            padding: $base;
+            margin: 0 $base;
+            margin-bottom: $base;
+            color: $white;
+            text-align: center;
+            cursor: pointer;
+        }
+    }
+    &_list::-webkit-scrollbar
+    {
+        width: 20px;
+    }
+    &_list::-webkit-scrollbar-thumb
+    {
+        background: $blue_secundary;
+        border-radius: 10px;
+    }
+}

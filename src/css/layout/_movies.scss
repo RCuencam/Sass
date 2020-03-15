@@ -1,0 +1,46 @@
+
+/*-----------------------MOVIES*/
+.movies
+{
+    padding: $base;
+    min-width: 10px;
+    .movie_section_title
+    {
+        font-size:$base*1.5;
+        margin: $base 0;
+    }
+    .movie_image
+    {
+        width: 150px;
+        height: 200px;
+    }
+    .movie_title
+    {
+        font-size: $base;
+        text-align: center;
+    }
+    .movie_list
+    {
+        display: flex;
+        overflow: auto;
+        &::-webkit-scrollbar
+        {
+            background: white;
+            height: 10px;
+        }
+        &::-webkit-scrollbar-thumb
+        {
+            border-radius: 10px;
+            background: $blue;
+        }
+    }
+    .movie_item
+    {
+        margin: 0 $base;
+        cursor: pointer;
+    }
+    .movie_container
+    {
+        margin: $base 0;
+    }
+}
