@@ -24,4 +24,8 @@ body
         grid-row-start:2;
     }
 
+    @include responsive768
+    {
+        grid-template:90px 0 1fr/ 1fr;
+    }
 }

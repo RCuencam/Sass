@@ -6,6 +6,10 @@
     {
         height: 500px;
         overflow: auto;
+        @include responsive768
+        {
+            display: none;
+        }
         &_item
         {
             display: block;

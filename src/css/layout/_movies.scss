@@ -4,6 +4,10 @@
 {
     padding: $base;
     min-width: 10px;
+    @include responsive768
+    {
+        padding: 10px;
+    }
     .movie_section_title
     {
         font-size:$base*1.5;

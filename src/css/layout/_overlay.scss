@@ -1,0 +1,45 @@
+
+.overlay
+{
+    background: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+
+    .modal
+    {
+        position: fixed;
+        width: 600px;
+        height: auto;
+        margin-top:$base*2;
+        background: $white;
+        border-radius: $base;
+        border: 1px solid black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transform: translateY(1000px);
+        padding: $base;
+        font-size: .9em;
+    }
+    .modal-button
+    {
+        padding: $base;
+        background: $blue;
+        border-radius: 5px;
+        border: 0;
+        color:$white;
+        cursor: pointer;
+        margin:$base 0;
+    }
+    .modal-title
+    {
+        margin: $base 0;
+    }
+    .modal-info
+    {
+        margin: $base 0;
+    }
+}
